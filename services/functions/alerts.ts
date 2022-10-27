@@ -106,6 +106,12 @@ export const handler: EventBridgeHandler<'tv_alert', Alert, {}> = async (event, 
                     pair,
                     delay_seconds: 0
                 })
+
+                messages.push({
+                    ...bots.bitFucker.config,
+                    pair,
+                    delay_seconds: 0
+                })
             }
         }
     }
