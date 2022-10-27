@@ -79,7 +79,6 @@ export const handler: EventBridgeHandler<'tv_alert', Alert, {}> = async (event, 
                     ...bots.short.config,
                     pair,
                     delay_seconds: 0,
-                    // action: "close_at_market_price",
                 })
             }
 
